@@ -9,9 +9,9 @@
     <?php  wp_head();?>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo(get_template_directory_uri()); ?>/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo(get_template_directory_uri()); ?>/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo(get_template_directory_uri()); ?>/img/favicons/favicon-16x16.png">
     <!-- Web fonts-->
 
 
@@ -32,12 +32,13 @@
 <!-- Navbar-->
 <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
         <!-- Navbar Logo-->
-        <img class="img-fluid" src="img/Neapsys_logo-bg-sombre.png" alt="Logo"></a>
+        
+        <img class="img-fluid" src="<?php echo(get_template_directory_uri()); ?>/img/Neapsys_logo-bg-sombre.png" alt="Logo"></a>
     <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
     <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
         <!-- Navbar menu-->
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">Qui sommes-nous ?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
             <li class="nav-item"><a class="nav-link" href="#expertises">Nos expertises</a></li>
             <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
             <li class="nav-item"><a class="nav-link" href="#join">Nous rejoindre</a></li>
