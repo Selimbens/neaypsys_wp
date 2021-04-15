@@ -64,7 +64,7 @@
                             <div class="info-section single-section container">
                                 <div class="row align-items-center">
                                     <!-- Picture part-->
-                                    <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="<?php echo (get_template_directory_uri()); ?>/img/IMG-20200327-WA0074-02.jpg" alt="About Picture"></div>
+                                    <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="<?php echo (get_template_directory_uri()); ?>/img/scott-graham-5fNmWej4tAA-unsplash-opt.jpg" alt="About Picture"></div>
                                     <!-- Content part-->
                                     <div class="col-12 col-lg-7 info-content">
                                         <div class="content-block">
@@ -532,7 +532,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio lightbox-->
+        <!-- Blog lightbox-->
         <div class="lightbox-wrapper" id="blog" data-simplebar>
             <div class="container">
                 <div class="lightbox-close">
@@ -758,7 +758,7 @@
                                 <div class="col-12">
                                     <div class="section-heading page-heading">
                                         <p class="section-description">Feel free to contact me anytime</p>
-                                        <h2 class="section-title">Get in Touch</h2>
+                                        <h2 class="section-title">Contactez-nous</h2>
                                         <div class="animated-bar"></div>
                                     </div>
                                 </div>

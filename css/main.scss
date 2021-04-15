@@ -1004,6 +1004,8 @@
         background-color: transparent;
         border-color: rgba(0, 0, 0, 0.18);
         width: 430px;
+        height: 520px;
+        object-fit: cover;
       }
   
       .info-content {
@@ -1236,7 +1238,7 @@
     }
   }
   
-  #expertises, .expertises {
+  #expertises, .expertises, #blog {
     background-color: #f6f6f6;
     .lightbox-close {
       color: #0b0b0b;
@@ -1771,6 +1773,7 @@
   }
   
   #blog .blog-section .single-post {
+    color: #0b0b0b;
     background-color: transparent;
     border: none;
     margin-bottom: 70px;
@@ -1793,6 +1796,7 @@
       padding: 13px 0 0 0;
   
       .content-title {
+        color: #003A72;
         font-size: 20px;
         font-weight: 600;
         letter-spacing: 0.1px;
